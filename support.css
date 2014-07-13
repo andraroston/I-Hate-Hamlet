@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+body {
+	background: radial-gradient(#660000, #330000);
+}
+
+a {
+	text-decoration: none;
+}
+
+#wrapper {
+	margin-left:auto;
+    margin-right:auto;
+    width:1200px;
+    height: 700px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: "Great Vibes";
+	padding: 15px;
+	text-align: center;
+	font-size: 100px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+h1 a{
+	color: #ffc300;
+}
+
+h2 {
+	font-family: Roboto;
+	font-size: 20px;
+	text-align: center;
+}
+
+h2 div {
+	border-bottom: 1px solid black;
+	margin: 10px 300px 10px 300px;
+}
+
+h2 div p {
+	margin: 5px 40px 10px 40px;
+	display: inline-block;	
+}
+
+h3 {
+	text-align: center;
+	font-family: Roboto;
+	font-size: 22px;
+	padding-top: 30px;
+	color: #ffc300;
+}
+
+section {
+	font-family: Roboto;
+	text-align: center;
+	margin-top: 8%;
+}
+
+section div {
+	display: inline-block;
+	border-radius: 20px;
+	width: 180px;
+	padding: 20px;
+	margin: 5px 30px 0 30px;
+	background: radial-gradient(#ffee00, #ff8300);
+}
+
+footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	background: radial-gradient(#303030, #1a1a1a);
+}
+
+footer div {
+	margin: 30px 40px 30px 40px;
+	color: white;
+	display: inline-block;
+}
+
+#footright {
+	float: right;
+}
+
+footer div a {
+	color: white;
+	font-family: Roboto;
+	font-size: 18px;
+}
+
