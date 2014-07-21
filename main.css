@@ -116,7 +116,7 @@ h2 div p {
 	border-radius: 50%;
 	height: 180px;
 	width: 180px;
-	margin: auto 60px auto 60px;
+	margin: auto 30px auto 30px;
 	border: 1px solid #7a7a7a;
 }
 
@@ -144,13 +144,20 @@ h2 div p {
 	color: #7a7a7a;
 }
 
+#helping {
+	margin: 50px;
+}
+
 #helping div {
-	display: inline-block;
+	display: block;
 	border-radius: 20px;
 	width: 180px;
 	padding: 10px;
 	margin: 5px 10px 0 10px;
 	background-color:rgba(255,255,255,0.5);
+	float: left;
+	min-height: 150px;
+	border: 1px solid #7a7a7a;
 }
 
 #auditions div {
