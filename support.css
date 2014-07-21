@@ -99,13 +99,13 @@ h3 {
 	color: #ffc300;
 }
 
-section {
+#helping {
 	font-family: Roboto;
 	text-align: center;
 	margin-top: 8%;
 }
 
-section div {
+#helping div {
 	display: inline-block;
 	border-radius: 20px;
 	width: 180px;

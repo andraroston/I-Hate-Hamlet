@@ -44,7 +44,12 @@ q:before, q:after {
 }
 
 body {
-	background: radial-gradient(#660000, #330000);
+	background-image: url("images/bgtheatre.jpeg");
+	background-size: 100%;
+	margin-left:auto;
+    margin-right:auto;
+    width:1200px;
+    height: 700px;
 }
 
 a {
@@ -52,10 +57,12 @@ a {
 }
 
 #wrapper {
-	margin-left:auto;
-    margin-right:auto;
-    width:1200px;
-    height: 700px;
+	background: radial-gradient(#ffea99, #FFCC00);
+	width: 990px;
+	min-height: 550px;
+	margin: 30px auto 30px auto;
+	padding: 10px;
+	border-radius: 25px;
 }
 
 a:hover {
@@ -69,11 +76,16 @@ h1 {
 	font-size: 100px;
 	font-weight: bold;
 	margin-top: 20px;
+	color: #003366;
 }
 
-h1 a{
-	color: #ffc300;
+header a{
+	color: #003366;
+	font-family: Roboto;
+	margin-top: 10px;
+	margin-left: 5px;
 }
+
 
 h2 {
 	font-family: Roboto;
@@ -82,43 +94,115 @@ h2 {
 }
 
 h2 div {
-	border-bottom: 1px solid black;
-	margin: 10px 300px 10px 300px;
+	border-bottom: 1px solid #3d3d3d;
+	margin: 10px 200px 10px 200px;
+	color: #3d3d3d;
 }
 
 h2 div p {
-	margin: 5px 40px 10px 40px;
+	margin: 5px 30px 10px 30px;
 	display: inline-block;	
 }
 
-section {
+#mainpage{
 	text-align: center;
-	margin: 120px auto auto auto;
+	margin: 100px auto auto auto;
 }
 
-section div {
+#mainpage div {
 	display: inline-block;
 	text-align: center;
-	background: radial-gradient(#ffee00, #ff8300);
+	background-color:rgba(255,255,255,0.5);
 	border-radius: 50%;
 	height: 180px;
 	width: 180px;
-	margin: auto 70px auto 70px;
-	border: 2px solid #ff8300;
+	margin: auto 60px auto 60px;
+	border: 1px solid #7a7a7a;
 }
 
-section div p {
+#mainpage div p {
 	margin-top: 75px;
 	font-size: 20px;
 }
 
-section div a {
+#mainpage div a {
 	color: black;
 	font-family: Roboto;
 }
 
+#helping {
+	font-family: Roboto;
+	text-align: center;
+	margin-top: 8%;
+}
+
+#thanks {
+	text-align: center;
+	font-family: Roboto;
+	font-size: 22px;
+	padding-top: 30px;
+	color: #7a7a7a;
+}
+
+#helping div {
+	display: inline-block;
+	border-radius: 20px;
+	width: 180px;
+	padding: 10px;
+	margin: 5px 10px 0 10px;
+	background-color:rgba(255,255,255,0.5);
+}
+
+#auditions div {
+	display: inline-block;
+	width: 463px;
+	height: 360px;
+	margin-top: 8px;
+	padding: 7px;
+	text-align: center;
+	font-family: Roboto;
+	background-color:rgba(255,255,255,0.5);
+	border-radius: 10px;
+	border: 1px solid #7a7a7a;
+}
+
+#auditions div p {
+	margin-top: 10px;
+}
+
+#character {
+	margin-left: 5px;
+}
+
+
+#info {
+	float: right;
+	margin-right: 5px;
+}
+
+#info p a {
+	color: black;
+}
+
+#audience div {
+	text-align: center;
+	color: #ffc300;
+	font-family: Roboto;
+	font-size: 19px;
+	margin: 120px 80px auto 80px;
+}
+
+#twitter{
+	background: radial-gradient(#ffee00, #ff8300);
+	width: 50px;
+	height: 50px;
+	margin: 30px auto 30px auto;
+	border-radius: 3px;
+}
+
 footer {
 	position: fixed;
+	clear: all;
 	width: 100%;
 	bottom: 0;
 	left: 0;
@@ -127,7 +211,7 @@ footer {
 }
 
 footer div {
-	margin: 30px 40px 30px 40px;
+	margin: 20px 40px 20px 40px;
 	color: white;
 	display: inline-block;
 }
